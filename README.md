@@ -103,3 +103,6 @@ Compiling your contracts...
 If an error occurs, make sure that both ganache and truffle are using the same port. Truffle config file is **truffle-config.js**.
 
 ![image-20220130232039024](https://s2.loli.net/2022/01/30/ngBdzHRkamfrlEb.png)
+
+## Additional information
+We will continue to organize the system code and upload it. If you have any questions, you can raise issues or contact us yufaji@std.uestc.edu.cn.
