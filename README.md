@@ -104,5 +104,38 @@ If an error occurs, make sure that both ganache and truffle are using the same p
 
 ![image-20220130232039024](https://s2.loli.net/2022/01/30/ngBdzHRkamfrlEb.png)
 
+## FISCO-BCOS
+
+To use FISCO-BCOS, please refer to our other project **[Fair Transaction For Outsourcing Computation Using Blockchain](https://github.com/wwe1428103707/FairTransactionForOutsourcingComputationUsingBlockchain)**.
+
+Detailed documentation on the use of pre-compiled contracts in FISCO-BCOS can be found in its [official documentation](https://fisco-bcos-documentation.readthedocs.io/en/latest/docs/manual/smart_contract.html#precompiled-contract-development).
+
+## Homomorphic encryption
+
+Homomorphic encryption test files are placed in the homomorphicencryptiontest directory and require cmake(>3.20) and related dependencies to be installed.
+
+Please install some mathmatic libraries, including [gmp](https://gmplib.org/) and [NTL](https://libntl.org/).
+
+Please install the relevant homomorphic encryption libraries, including [HElib](https://github.com/homenc/HElib), [tfhe](https://github.com/tfhe/tfhe) and [SEAL](https://github.com/microsoft/SEAL). 
+
+Please click on the links for installation details of these libraries.
+
+After that, compile this program with the following command.
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
+
+After running it, you can see the following result.
+
+```bash
+xxxx key generation costs xxx ms
+xxxx encryption costs xxx ms
+xxxx addition costs xxx ms
+```
+
 ## Additional information
 We will continue to organize the system code and upload it. If you have any questions, you can raise issues or contact us yufaji@std.uestc.edu.cn.
