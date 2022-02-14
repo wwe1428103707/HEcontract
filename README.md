@@ -112,7 +112,7 @@ Detailed documentation on the use of pre-compiled contracts in FISCO-BCOS can be
 
 ## Homomorphic encryption
 
-Homomorphic encryption test files are placed in the homomorphicencryptiontest directory and require cmake(>3.20) and related dependencies to be installed.
+Homomorphic encryption test files are placed in the **homomorphicencryptiontest** directory and require cmake(>3.20) and related dependencies to be installed.
 
 Please install some mathmatic libraries, including [gmp](https://gmplib.org/) and [NTL](https://libntl.org/).
 
